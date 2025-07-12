@@ -1,0 +1,307 @@
+{
+    "elements": [
+        {
+            "elements": {
+                "text": {
+                    "width": 434,
+                    "component": {
+                        "translate": "legacy.menu.how_to_play.hud_message"
+                    },
+                    "type": "draw_multiline_string"
+                },
+                "text1": {
+                    "width": 434,
+                    "component": {
+                        "allowVariables": true,
+                        "args": [
+                            "controlIcon.legacy.key.cycleHeldLeft",
+                            "controlIcon.legacy.key.cycleHeldRight"
+                        ],
+                        "translate": "legacy.menu.how_to_play.hud_message_1"
+                    },
+                    "type": "draw_multiline_string"
+                }
+            },
+            "name": "scrollable_renderer",
+            "x": "(${width}-${scrollable_renderer.width})/2",
+            "width": 456,
+            "y": "(${height}-${scrollable_renderer.height})/2 - 31",
+            "type": "put_scrollable_renderer",
+            "height": 121
+        },
+        {
+            "name": "hotbar",
+            "sprite": "hud/hotbar",
+            "x": "(${width}-${hotbar.width})/2",
+            "width": 273,
+            "y": "${height}-90",
+            "type": "blit_sprite",
+            "height": 33
+        },
+        {
+            "translateY": -1.5,
+            "translateX": -1.5,
+            "name": "hotbar_selection",
+            "sprite": "legacy:hud/hotbar_selection",
+            "x": "${hotbar.x}",
+            "width": 36,
+            "y": "${hotbar.y}",
+            "type": "blit_sprite",
+            "height": 36
+        },
+        {
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}",
+            "name": "hotbar_offhand",
+            "sprite": "hud/hotbar_offhand_left",
+            "x": -29,
+            "width": 29,
+            "y": -1,
+            "height": 24
+        },
+        {
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}",
+            "name": "experience_bar_background",
+            "sprite": "hud/experience_bar_background",
+            "width": 182,
+            "y": -7,
+            "type": "blit_sprite",
+            "height": 5
+        },
+        {
+            "imageWidth": 182,
+            "texture": "textures/gui/sprites/hud/experience_bar_progress.png",
+            "type": "blit",
+            "imageHeight": 5,
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}",
+            "name": "experience_bar_progress",
+            "width": 137,
+            "y": -7,
+            "height": 5
+        },
+        {
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "component": "3",
+            "color": "${commonColor.experience_text}",
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}+${hotbar.width}/2",
+            "name": "experience_text",
+            "x": -2,
+            "y": -16,
+            "type": "draw_outlined_string"
+        },
+        {
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}",
+            "name": "quick_select",
+            "x": "3+(${quick_select.index}%9)*20",
+            "y": 3,
+            "type": "render_items",
+            "isFake": true,
+            "items": [
+                "iron_sword",
+                "bow",
+                {
+                    "count": 64,
+                    "item": "arrow"
+                },
+                {
+                    "nbt": {
+                        "Damage": 28
+                    },
+                    "item": "flint_and_steel",
+                    "components": {
+                        "damage": 28
+                    }
+                },
+                "clock",
+                "shears",
+                {
+                    "nbt": {
+                        "Damage": 65
+                    },
+                    "item": "iron_axe",
+                    "components": {
+                        "damage": 65
+                    }
+                },
+                "fishing_rod",
+                "compass"
+            ]
+        },
+        {
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "item": "filled_map",
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}",
+            "name": "offhand",
+            "x": -26,
+            "y": 3,
+            "type": "render_item",
+            "isFake": true
+        },
+        {
+            "amount": 10,
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}",
+            "name": "heart_containers",
+            "sprite": "hud/heart/container",
+            "width": 9,
+            "x": "${heart_containers.index}*8",
+            "y": "-17",
+            "height": 9
+        },
+        {
+            "amount": 8,
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}",
+            "name": "hearts",
+            "sprite": "hud/heart/full",
+            "width": 9,
+            "x": "${hearts.index}*8",
+            "y": "-17",
+            "height": 9
+        },
+        {
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}",
+            "name": "half_heart",
+            "sprite": "hud/heart/half",
+            "width": 9,
+            "x": "64",
+            "y": "-17",
+            "height": 9
+        },
+        {
+            "amount": 10,
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}",
+            "name": "armor_empty",
+            "sprite": "hud/armor_empty",
+            "width": 9,
+            "x": "${armor_empty.index}*8",
+            "y": "-27",
+            "height": 9
+        },
+        {
+            "amount": 3,
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}",
+            "name": "armor",
+            "sprite": "hud/armor_full",
+            "width": 9,
+            "x": "${armor.index}*8",
+            "y": "-27",
+            "height": 9
+        },
+        {
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}",
+            "name": "armor_half",
+            "sprite": "hud/armor_half",
+            "width": 9,
+            "x": "24",
+            "y": "-27",
+            "height": 9
+        },
+        {
+            "amount": 10,
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}+${hotbar.width}",
+            "name": "food_empty",
+            "sprite": "hud/food_empty",
+            "width": 9,
+            "x": "${food_empty.index}*8-81",
+            "y": "-17",
+            "height": 9
+        },
+        {
+            "amount": 6,
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}+${hotbar.width}",
+            "name": "food",
+            "sprite": "hud/food_full",
+            "width": 9,
+            "x": "-(${food.index}+1)*8-1",
+            "y": "-17",
+            "height": 9
+        },
+        {
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}+${hotbar.width}",
+            "name": "food_half",
+            "sprite": "hud/food_half",
+            "width": 9,
+            "x": "-57",
+            "y": "-17",
+            "height": 9
+        },
+        {
+            "amount": 5,
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}+${hotbar.width}",
+            "name": "air",
+            "sprite": "hud/air",
+            "width": 9,
+            "x": "-(${air.index}+1)*8-1",
+            "y": "-27",
+            "height": 9
+        },
+        {
+            "type": "blit_sprite",
+            "scaleX": 1.5,
+            "scaleY": 1.5,
+            "translateY": "${hotbar.y}",
+            "translateX": "${hotbar.x}+${hotbar.width}",
+            "name": "air_bursting",
+            "sprite": "hud/air_bursting",
+            "width": 9,
+            "x": "-49",
+            "y": "-27",
+            "height": 9
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+filename = 'just-red-beds-1.0.0.jar'
+name = 'Just Red Beds'
+side = 'server'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.5', '1.20.6', '1.21' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '15e6dc64adde26b95003f07376cf63640ddf7308470a3deaa96b4f144de973ba26257835c41a0dee9d19abf10e9ecc0a00929dc17ac8242ad101322690bebe74'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3dXhcd1u/versions/JhdWu0Xu/just-red-beds-1.0.0.jar'
+
+[update.modrinth]
+mod-id = '3dXhcd1u'
+version = 'JhdWu0Xu'

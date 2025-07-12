@@ -1,0 +1,29 @@
+{
+    "elements": {
+        "scrollable_renderer": {
+            "elements": [
+                {
+                    "name": "title",
+                    "width": 433,
+                    "component": {
+                        "translate": "legacy.menu.how_to_play.whats_new_message"
+                    },
+                    "type": "draw_multiline_string"
+                },
+                {
+                    "name": "changelog",
+                    "width": 433,
+                    "component": {
+                        "baseDir": "minecraft:changelog"
+                    },
+                    "type": "draw_multiline_string"
+                }
+            ],
+            "x": "(${width}-${scrollable_renderer.width})/2",
+            "width": 456,
+            "y": "(${height}-${scrollable_renderer.height})/2 + 31",
+            "type": "put_scrollable_renderer",
+            "height": 222
+        }
+    }
+}

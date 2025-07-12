@@ -1,0 +1,16 @@
+filename = 'just-beta-nether-V1-1.20.jar'
+name = 'Just Beta Nether'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '712939aac8c44b6ee9078112efe00224f61a8b30c8e06580f88466d419c4dfac5b81be12fdfca03f1ca4deb3f29ef8cd1ff3e110455b798178828281cc04a22d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qLJYR7Zo/versions/86wr80qI/just-beta-nether-V1-1.20.jar'
+
+[update.modrinth]
+mod-id = 'qLJYR7Zo'
+version = '86wr80qI'

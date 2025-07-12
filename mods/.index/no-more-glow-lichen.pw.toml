@@ -1,0 +1,31 @@
+filename = 'no-more-glow-lichen-1.0.1.jar'
+name = 'No More Glow Lichen'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0ad8b5a5bd1d11484cd438c6ef00285b13450f2221bf747d87b2c8575c0b14d517b24d083c8c49e60dede118b70772cce6b04e077f3394f1a9aeea9a681ed388'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/6pRl7Gde/versions/3RjbClBb/no-more-glow-lichen-1.0.1.jar'
+
+[update.modrinth]
+mod-id = '6pRl7Gde'
+version = '3RjbClBb'

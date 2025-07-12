@@ -1,0 +1,31 @@
+filename = 'no-more-post-beta-flowers-1.0.1.jar'
+name = 'No More Post Beta Flowers'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.19',
+    '1.19.1',
+    '1.19.2',
+    '1.19.3',
+    '1.19.4',
+    '1.20',
+    '1.20.1',
+    '1.20.2',
+    '1.20.3',
+    '1.20.4',
+    '1.20.5',
+    '1.20.6',
+    '1.21',
+    '1.21.1'
+]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '0941826d279dd507bb41a68bf525d58160b5cbfc2d6e2a58879c4ad47ba8e21ea47e53d54465582257356aa611f0871ce5da38f6c00b668812ed3b973c57518a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TSxsvx27/versions/wsNabXWD/no-more-post-beta-flowers-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'TSxsvx27'
+version = 'wsNabXWD'

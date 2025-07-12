@@ -1,0 +1,13 @@
+{
+    "result": {
+        "count": 9,
+        "id": "minecraft:string"
+    },
+    "ingredients": [
+        {
+            "item": "minecraft:cobweb"
+        }
+    ],
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc"
+}
