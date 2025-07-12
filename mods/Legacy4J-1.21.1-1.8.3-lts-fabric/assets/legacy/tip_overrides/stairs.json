@@ -1,6 +1,0 @@
-{
-  "overrides": {
-    "block": "#stairs",
-    "tip": {"translate": "block.minecraft.stairs.tip"}
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "overrides": {
-    "items": ["iron_ingot","gold_ingot"],
-    "tip": {"translate": "item.minecraft.ingot.tip"}
-  }
-}

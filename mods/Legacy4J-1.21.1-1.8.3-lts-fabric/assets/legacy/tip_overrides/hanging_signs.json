@@ -1,6 +1,0 @@
-{
-  "overrides": {
-    "block": "#all_hanging_signs",
-    "tip": {"translate": "block.minecraft.hanging_sign.tip"}
-  }
-}

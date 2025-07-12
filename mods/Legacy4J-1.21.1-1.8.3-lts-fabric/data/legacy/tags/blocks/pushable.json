@@ -1,9 +1,0 @@
-{
-  "values": [
-    "minecraft:chest",
-    "minecraft:trapped_chest",
-    "minecraft:daylight_detector",
-    "#minecraft:cauldrons",
-    "legacy:colored_water_cauldron"
-  ]
-}

@@ -1,6 +1,0 @@
-{
-  "overrides": {
-    "block": "#stone_pressure_plates",
-    "tip": {"translate": "block.minecraft.stone_pressure_plate.tip"}
-  }
-}
