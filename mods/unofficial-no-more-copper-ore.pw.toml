@@ -1,0 +1,13 @@
+name = "[UNOFFICIAL] No More Copper Ore"
+filename = "no-more-copper-ore-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3efc323c4fca55be46bbffdec67cf2736bc4c454"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6555914
+project-id = 1271182

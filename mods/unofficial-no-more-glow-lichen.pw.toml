@@ -1,0 +1,13 @@
+name = "[UNOFFICIAL] No More Glow Lichen"
+filename = "no-more-glow-lichen-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "258cacff6a73904944eec169f119d22d7a57f998"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6555908
+project-id = 1271177

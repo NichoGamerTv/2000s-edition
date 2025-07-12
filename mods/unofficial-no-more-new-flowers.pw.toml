@@ -1,0 +1,13 @@
+name = "[UNOFFICIAL] No More New Flowers"
+filename = "no-more-post-beta-flowers-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9b9a1d0928fe2e29f6459d9ab887b91be9910e4b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6555911
+project-id = 1271178

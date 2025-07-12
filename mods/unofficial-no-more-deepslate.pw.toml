@@ -1,0 +1,13 @@
+name = "[UNOFFICIAL] No More Deepslate"
+filename = "no-more-deepslate-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "16a3bbeda90f24afa9642a2f10bd80e27fb5c3ed"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6555913
+project-id = 1271181
